@@ -1,0 +1,26 @@
+{
+  "scenario": "FICTIONAL / SYNTHETIC",
+  "scope": "LOCAL RULES PROTOTYPE; NO LIVE INTEGRATIONS",
+  "intake": {
+    "case_id": "DEMO-1001",
+    "team": "Response Desk",
+    "respond_by_utc": "2026-10-13T14:00:00+00:00",
+    "initial_status": "TRIAGED"
+  },
+  "final_state": "CLOSED",
+  "qa_reviewer": "Reese",
+  "events_for_first_case": [
+    "submit",
+    "scope",
+    "approve",
+    "begin",
+    "submit_qa",
+    "close"
+  ],
+  "blocked_examples": {
+    "missing_consent": "Intake consent is required",
+    "invalid_service": "Unsupported service"
+  },
+  "case_count": 2,
+  "audit_event_count": 7
+}
